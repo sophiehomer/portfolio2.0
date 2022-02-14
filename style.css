@@ -27,24 +27,56 @@ a {
 }
 
 /* ---------------------------------- ABOUT --------------------------------- */
+header {
+    padding: 20px;
+}
 
-.about-me h1 {
-   padding-top: 20px;
+header h1 {
+    font-size: 40px;
+   padding-top: 10px;
+   display: inline-block;
 
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+}
+
+nav h1 {
+    justify-content: left;
+}
+
+li {
+    list-style: none;
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
 }
 
 .container {
  display: flex;
  flex-direction: column;
-
-
 }
 
 .about-me img {
     max-height: 400px;
-    margin-left: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    float: left;
 }
 
-p {
-    font-size: 10px;
+h2 {
+ font-size: 20px;
+ text-align: center;
+ line-height: 1.7;
+ margin-right: 100px;
+ padding-top: 50px;
+ 
 }
+
+/* --------------------------------- CONTACT -------------------------------- */
