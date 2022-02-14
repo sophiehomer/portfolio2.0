@@ -10,7 +10,7 @@ body {
     background-color: #F5F1E7;
 }
 
-/* -------------------------------- HOMEPAGE -------------------------------- */
+/* -------------------------------- HOMEPAGE HTML -------------------------------- */
 h1{
     font-size: 70px;
     padding-top: 200px;
@@ -26,7 +26,7 @@ a {
     color:black;
 }
 
-/* ---------------------------------- ABOUT --------------------------------- */
+/* ---------------------------------- ABOUT HTML --------------------------------- */
 header {
     padding: 20px;
 }
@@ -79,4 +79,21 @@ h2 {
  
 }
 
-/* --------------------------------- CONTACT -------------------------------- */
+/* --------------------------------- CONTACT HTML -------------------------------- */
+
+.section-info {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 400px;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+a:hover {
+        transform: scale(1.2);
+}
+
+/* -------------------------------- WORK HTML ------------------------------- */
+
