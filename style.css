@@ -97,3 +97,101 @@ a:hover {
 
 /* -------------------------------- WORK HTML ------------------------------- */
 
+.my-work h2 {
+    font-size: 20px;
+}
+
+
+.text-block {
+    position: absolute;
+    left: 0pt;
+    height: 30px;
+    padding-left: 7px;
+    padding-right: 5px;
+    padding-top: 5px;
+    background-color: #f4f2ed;
+    color: black;
+}
+
+.text-block h3 {
+    font-size: 15px;
+}
+
+  /* DINNER & DRINKS */
+  .dinner-drinks-img {
+    height: 150px;
+    width: 700px;
+    background-image: url("images/dinner-drinks.png");
+    background-size: cover;
+    background-position: center top;
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+    /* margin-top: 400px; */
+    border: .5px solid black;
+}
+
+.dinner-drinks-img:hover {
+    opacity: .5;
+}
+
+/* HORISEON */
+.horiseon-img {
+    height: 150px;
+    width: 700px;
+    background-image: url("images/horiseon.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    border: .5px solid black;
+}
+
+.horiseon-img:hover {
+    opacity: .5;
+}
+
+/* RUN BUDDY */
+.run-buddy-img  {
+    height: 150px;
+    width: 700px;
+    background-image: url("images/run-buddy.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    border: .5px solid black;
+}
+
+.run-buddy-img:hover {
+    opacity: .5;
+}
+
+
+/* WEATHER DASHBOARD */
+.weather-dashboard-img {
+    height: 150px;
+    width: 700px;
+    background-image: url("images/weather-dashboard.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    border: .5px solid black;
+}
+
+.weather-dashboard-img:hover {
+    opacity: .5;
+}
+
+/* WORK DAY SCHEDULER  */
+.work-day-scheduler-img {
+    height: 150px;
+    width: 700px;
+    background-image: url("images/work-day-scheduler.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    border: .5px solid black;
+}
+
+.work-day-scheduler-img:hover {
+    opacity: .5;
+}
