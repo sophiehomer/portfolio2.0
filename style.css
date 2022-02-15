@@ -91,9 +91,9 @@ h2 {
     margin-right: 50px;
 }
 
-a:hover {
+/* a:hover {
         transform: scale(1.2);
-}
+} */
 
 /* -------------------------------- WORK HTML ------------------------------- */
 
@@ -119,15 +119,14 @@ a:hover {
 
   /* DINNER & DRINKS */
   .dinner-drinks-img {
-    height: 150px;
-    width: 700px;
+    height: 200px;
+    width: 500px;
     background-image: url("images/dinner-drinks.png");
     background-size: cover;
     background-position: center top;
     display: block;
     margin-right: 0;
-    margin-bottom: 10px;
-    /* margin-top: 400px; */
+    margin-bottom: 15px;
     border: .5px solid black;
 }
 
@@ -137,13 +136,15 @@ a:hover {
 
 /* HORISEON */
 .horiseon-img {
-    height: 150px;
-    width: 700px;
+    height: 200px;
+    width: 500px;
     background-image: url("images/horiseon.png");
     background-size: cover;
-    background-position: center;
+    background-position: center-top;
     display: block;
     border: .5px solid black;
+    margin-bottom: 15px;
+
 }
 
 .horiseon-img:hover {
@@ -152,13 +153,14 @@ a:hover {
 
 /* RUN BUDDY */
 .run-buddy-img  {
-    height: 150px;
-    width: 700px;
+    height: 200px;
+    width: 500px;
     background-image: url("images/run-buddy.png");
     background-size: cover;
-    background-position: center;
+    background-position: center-top;
     display: block;
     border: .5px solid black;
+    margin-bottom: 15px;
 }
 
 .run-buddy-img:hover {
@@ -168,13 +170,14 @@ a:hover {
 
 /* WEATHER DASHBOARD */
 .weather-dashboard-img {
-    height: 150px;
-    width: 700px;
+    height: 200px;
+    width: 500px;
     background-image: url("images/weather-dashboard.png");
     background-size: cover;
-    background-position: center;
+    background-position: center-top;
     display: block;
     border: .5px solid black;
+    margin-bottom: 15px;
 }
 
 .weather-dashboard-img:hover {
@@ -183,13 +186,14 @@ a:hover {
 
 /* WORK DAY SCHEDULER  */
 .work-day-scheduler-img {
-    height: 150px;
-    width: 700px;
+    height: 200px;
+    width: 500px;
     background-image: url("images/work-day-scheduler.png");
     background-size: cover;
-    background-position: center;
+    background-position: center-top;
     display: block;
     border: .5px solid black;
+    margin-bottom: 15px;
 }
 
 .work-day-scheduler-img:hover {
