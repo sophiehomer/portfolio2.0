@@ -61,6 +61,7 @@ header nav ul li {
 .container {
  display: flex;
  flex-direction: column;
+align-items: center;
 }
 
 .about-me img {
@@ -80,6 +81,9 @@ h2 {
 }
 
 /* --------------------------------- CONTACT HTML -------------------------------- */
+.contactHeader h1 {
+    font-weight: bold;
+}
 
 .section-info {
     display: flex;
@@ -87,13 +91,13 @@ h2 {
     text-align: center;
     padding-top: 100px;
     padding-bottom: 400px;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-right: 50px;
 }
 
-/* a:hover {
+.contact:hover {
         transform: scale(1.2);
-} */
+}
 
 /* -------------------------------- WORK HTML ------------------------------- */
 
@@ -119,8 +123,8 @@ h2 {
 
   /* DINNER & DRINKS */
   .dinner-drinks-img {
-    height: 200px;
-    width: 500px;
+    height: 300px;
+    width: 600px;
     background-image: url("images/dinner-drinks.png");
     background-size: cover;
     background-position: center top;
@@ -136,8 +140,8 @@ h2 {
 
 /* HORISEON */
 .horiseon-img {
-    height: 200px;
-    width: 500px;
+    height: 300px;
+    width: 600px;
     background-image: url("images/horiseon.png");
     background-size: cover;
     background-position: center-top;
@@ -153,8 +157,8 @@ h2 {
 
 /* RUN BUDDY */
 .run-buddy-img  {
-    height: 200px;
-    width: 500px;
+    height: 300px;
+    width: 600px;
     background-image: url("images/run-buddy.png");
     background-size: cover;
     background-position: center-top;
@@ -170,8 +174,8 @@ h2 {
 
 /* WEATHER DASHBOARD */
 .weather-dashboard-img {
-    height: 200px;
-    width: 500px;
+    height: 300px;
+    width: 600px;
     background-image: url("images/weather-dashboard.png");
     background-size: cover;
     background-position: center-top;
@@ -186,8 +190,8 @@ h2 {
 
 /* WORK DAY SCHEDULER  */
 .work-day-scheduler-img {
-    height: 200px;
-    width: 500px;
+    height: 300px;
+    width: 600px;
     background-image: url("images/work-day-scheduler.png");
     background-size: cover;
     background-position: center-top;
